@@ -12,8 +12,6 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
       {/* Bootstrap core JS */}
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" />
-      {/* Core theme JS */}
-      <Script src="../js/scripts.js" />
       <Script src="https://cdn.startbootstrap.com/sb-forms-latest.js" />
     </>
   );
