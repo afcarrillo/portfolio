@@ -10,14 +10,18 @@ export default function Contact() {
                 <h4 className="text-uppercase m-0">CV</h4>
                 <hr className="my-4 mx-auto" />
                 <div className="small text-black-50">
-                  <a href="https://drive.google.com/file/d/1iiksUZQBUTWE7i03QGzFjhYTABebXUr1/view?usp=sharing">
-                    Curriculum Vitae ENG
-                  </a>
+                  <strong>
+                    <a href="https://drive.google.com/file/d/1iiksUZQBUTWE7i03QGzFjhYTABebXUr1/view?usp=sharing">
+                      Curriculum Vitae ENG
+                    </a>
+                  </strong>
                 </div>
                 <div className="small text-black-50">
-                  <a href="https://drive.google.com/file/d/1zkMtODb5PDEMWBHsWhcefYceouwSlp2b/view?usp=sharing">
-                    Curriculum Vitae SPA
-                  </a>
+                  <strong>
+                    <a href="https://drive.google.com/file/d/1zkMtODb5PDEMWBHsWhcefYceouwSlp2b/view?usp=sharing">
+                      Curriculum Vitae SPA
+                    </a>
+                  </strong>
                 </div>
               </div>
             </div>
@@ -29,9 +33,11 @@ export default function Contact() {
                 <h4 className="text-uppercase m-0">Email</h4>
                 <hr className="my-4 mx-auto" />
                 <div className="small text-black-50">
-                  <a href="mailto:albertokarri@gmail.com">
-                    albertokarri@gmail.com
-                  </a>
+                  <strong>
+                    <a href="mailto:albertokarri@gmail.com">
+                      albertokarri@gmail.com
+                    </a>
+                  </strong>
                 </div>
               </div>
             </div>

@@ -8,7 +8,7 @@ export default function Header() {
         <div className="d-flex justify-content-center">
           <div className="text-center">
             <h1 className="mx-auto my-0 text-uppercase">Alberto Carrillo</h1>
-            <h2 className="text-white-50 mx-auto mt-2 mb-5">
+            <h2 className="text-primary mx-auto mt-2 mb-5">
               Full Stack Developer
             </h2>
             <Image

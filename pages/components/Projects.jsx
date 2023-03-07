@@ -17,7 +17,7 @@ export default function Projects() {
             />
           </div>
           <div className="col-xl-4 col-lg-5">
-            <div className="featured-text text-center text-lg-left">
+            <div className="featured-text text-center text-lg-start">
               <h4>Mi Turno Web</h4>
               <p className="text-black-50 mb-0">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -41,8 +41,8 @@ export default function Projects() {
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Net Security</h4>
+                <div className="project-text w-100 my-auto text-center text-lg-start">
+                  <h4 className="text-primary">Net Security</h4>
                   <p className="mb-0 text-white-50">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Totam hic accusamus at nam, pariatur excepturi iure dolor
@@ -68,8 +68,8 @@ export default function Projects() {
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">E-commerce</h4>
+                <div className="project-text w-100 my-auto text-center text-lg-end">
+                  <h4 className="text-primary">E-commerce</h4>
                   <p className="mb-0 text-white-50">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Culpa asperiores vitae blanditiis explicabo praesentium non,
@@ -95,8 +95,8 @@ export default function Projects() {
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">TMDB</h4>
+                <div className="project-text w-100 my-auto text-center text-lg-start">
+                  <h4 className="text-primary">TMDB</h4>
                   <p className="mb-0 text-white-50">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Totam hic accusamus at nam, pariatur excepturi iure dolor
