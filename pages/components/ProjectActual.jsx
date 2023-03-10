@@ -1,5 +1,5 @@
+"use client";
 import Image from "next/image";
-import demoPic from "../../public/img/demo-image-01.jpg";
 
 export default function ProjectActual({ project }) {
   return (
@@ -7,7 +7,7 @@ export default function ProjectActual({ project }) {
       <div className="col-xl-8 col-lg-7">
         <Image
           className="img-fluid mb-3 mb-lg-0"
-          src={demoPic}
+          src={project.image}
           alt="screenshot"
           placeholder="blur"
         />

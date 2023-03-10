@@ -1,3 +1,5 @@
+"use client";
+
 import ProjectItem from "./ProjectItem";
 import ProjectActual from "./ProjectActual";
 
@@ -8,7 +10,9 @@ export default function Projects() {
     <section className="projects-section bg-light" id="projects">
       <div className="container px-4 px-lg-5">
         <ProjectActual project={actualProject} />
-        <ProjectItem projects={projects} />
+        {projects.map((project, index) => (
+          <ProjectItem key={index} project={project} i={index} />
+        ))}
       </div>
     </section>
   );
