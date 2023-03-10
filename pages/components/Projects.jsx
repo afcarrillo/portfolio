@@ -1,5 +1,3 @@
-"use client";
-
 import ProjectItem from "./ProjectItem";
 import ProjectActual from "./ProjectActual";
 
