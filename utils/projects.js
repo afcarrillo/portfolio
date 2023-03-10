@@ -1,5 +1,7 @@
-import demoPic from "../public/img/demo-image-01.jpg";
-import bgHeadPic from "../public/img/bg-masthead.jpg";
+import miTurnoWeb from "../public/img/miturnoweb.png";
+import tmdb from "../public/img/tmdb.png";
+import librando from "../public/img/librando.png";
+import netSecurity from "../public/img/netsecurity.png";
 
 export const actualProject = {
   title: "Mi turno web (on going)",
@@ -7,7 +9,7 @@ export const actualProject = {
     "Web application that allows for scheduling appointments for businesses with physical branches, enabling the management of the number of customers at the location. Each branch can differentiate the number of customers that can be served simultaneously and the time slots, from the administrator/operator user. Each appointment will be for 15 minutes and can be canceled up to 2 hours in advance. These bookings must be visible to the business on a graphical dashboard. Additionally, obtain metrics based on the bookings made",
   stack: "Javascript | MongoDB | Express | Mongoose | NodeJS | NextJS | CSS",
   link: "https://github.com/carmelis/Mi-Turno-Web",
-  image: bgHeadPic,
+  image: miTurnoWeb,
 };
 
 export const projects = [
@@ -18,7 +20,7 @@ export const projects = [
     stack:
       "Javascript | PostgreSQL | Express | Sequelize | NodeJs | React | Redux | Bootstrap | SaSS | CSS | Nominatim | Open Street Map",
     link: "https://github.com/afcarrillo/net-security",
-    image: demoPic,
+    image: netSecurity,
   },
   {
     title: "E-commerce",
@@ -27,7 +29,7 @@ export const projects = [
     stack:
       "Javascript | PostgreSQL | Express | Sequelize | NodeJs | React | Redux | Bootstrap | CSS | Handlebars",
     link: "https://github.com/afcarrillo/Librando-FRONT",
-    image: demoPic,
+    image: librando,
   },
   {
     title: "TMDB",
@@ -36,6 +38,6 @@ export const projects = [
     stack:
       "Javascript | PostgreSQL | Express | Sequelize | NodeJs | React | Redux | Bulma",
     link: "https://github.com/afcarrillo/TMDB",
-    image: demoPic,
+    image: tmdb,
   },
 ];

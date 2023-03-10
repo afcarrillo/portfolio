@@ -5,8 +5,8 @@ export default function ProjectItem({ project, i }) {
     <div
       className={
         i % 2
-          ? "row gx-0 justify-content-center"
-          : "row gx-0 mb-lg-0 justify-content-center"
+          ? "row gx-0 mb-5 mb-lg-0 justify-content-center"
+          : "row gx-0 mb-5 mb-lg-0 justify-content-center"
       }
     >
       <div className="col-lg-6">

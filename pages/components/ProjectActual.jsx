@@ -13,7 +13,9 @@ export default function ProjectActual({ project }) {
       </div>
       <div className="col-xl-4 col-lg-5">
         <div className="featured-text text-center text-lg-start">
-          <h4>{project.title}</h4>
+          <h4>
+            <strong>{project.title}</strong>
+          </h4>
           <p className="text-black-50 mb-2">{project.description}</p>
           <p className="stack-b mb-4">{project.stack}</p>
           <a className="repository" href={project.link}>
