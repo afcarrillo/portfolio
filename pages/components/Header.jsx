@@ -9,7 +9,7 @@ export default function Header() {
           <div className="text-center">
             <h1 className="mx-auto my-0 text-uppercase">Alberto Carrillo</h1>
             <h2 className="text-primary mx-auto mt-2 mb-5">
-              Full Stack Developer
+              Engineer | Software | Developer
             </h2>
             <Image
               className="img-fluid"
