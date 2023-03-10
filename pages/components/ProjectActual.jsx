@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 export default function ProjectActual({ project }) {
-  return (
+  return project ? (
     <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
       <div className="col-xl-8 col-lg-7">
         <Image
@@ -23,5 +23,7 @@ export default function ProjectActual({ project }) {
         </div>
       </div>
     </div>
+  ) : (
+    ""
   );
 }

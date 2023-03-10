@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 export default function ProjectItem({ project, i }) {
-  return (
+  return project ? (
     <div
       className={
         i % 2
@@ -39,5 +39,7 @@ export default function ProjectItem({ project, i }) {
         </div>
       </div>
     </div>
+  ) : (
+    ""
   );
 }
