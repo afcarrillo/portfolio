@@ -1,8 +1,9 @@
 import Image from "next/image";
 
-export default function ProjectItem({ project, i }) {
-  return (
+export default function ProjectItem({ projects }) {
+  return projects.map((project, i) => (
     <div
+      key={i}
       className={
         i % 2
           ? "row gx-0 justify-content-center"
@@ -38,5 +39,5 @@ export default function ProjectItem({ project, i }) {
         </div>
       </div>
     </div>
-  );
+  ));
 }
